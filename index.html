@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crime Reporting App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="logo"><img src="images/logo.gif" alt="Crime Reporting"></div>
+    <fieldset id="one">
+        <legend>Sign-Up</legend>
+        <input type="email" name="user_email" id="u_email" placeholder="Your E-mail" onblur="ValidateEmail()">
+        <br>
+        <span id="er_msg"></span>
+        <br>
+        <input type="password" name="pass" id="pass" placeholder="Password" onblur="ValidatePass()">
+        <br>
+        <span id="er_msg1"></span>
+        <br>
+        <input id="btn" type="submit" value="Sign-Up" onclick="signup()">
+        <br>
+        <span id="msg"></span>
+        <br>
+    </fieldset>
+    <div id="lgbtn">
+        <button id="btn1">Log-In</button>
+    </div>
+
+    <img id="sign" src="sign.png" alt="Amin">
+
+    <script src="app.js"></script>
+</body>
+
+</html>

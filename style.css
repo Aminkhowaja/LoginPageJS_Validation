@@ -1,0 +1,99 @@
+body{
+    margin: 0 auto;
+    width: 800px;
+    /*border: 2px solid black;*/
+}
+
+#logo{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 730px;
+}
+
+#logo img{
+    height: 150px;
+}
+
+#one{
+    margin: 0 auto;
+    width: 500px;
+    border: 5px dashed darkgoldenrod;
+    background: lightgreen;
+}
+
+legend{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: blue;
+}
+
+#u_email, #pass{
+    width: 300px;
+    height: 45px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 75px;
+    padding-left: 55px;
+}
+
+#u_email{
+    background-image: url(images/email.png);
+    background-repeat: no-repeat;
+    background-position: 6px;
+}
+
+ #pass{
+     background-image: url(images/pass.png);
+    background-repeat: no-repeat;
+    background-position: 6px;
+ }
+
+#u_email:hover,#pass:hover{
+    border: 2px solid dodgerblue;
+}
+
+#u_email:focus,#pass:focus{
+    border: 2px solid dodgerblue;
+}
+
+#btn{
+    width: 350px;
+    height: 45px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 75px;
+    margin-bottom: 30px;
+    border-style: outset;
+    box-shadow: 5px 5px blue;
+}
+
+#er_msg,#er_msg1,#msg{
+    margin-left: 75px;
+    font-size: 18px;
+}
+
+#btn1{
+    width: 350px;
+    height: 45px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    margin-left: 75px;
+    border-style: outset;
+    box-shadow: 5px 5px blue;
+}
+
+#lgbtn{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 500px;
+    border: 5px dashed darkgoldenrod;
+    background: lightgreen;
+}
+
+#sign{
+    margin-top: 20px;
+    margin-left: 480px;
+}
